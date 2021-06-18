@@ -4,6 +4,36 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: home
+  label: 首页
+  create: documents
+  match: "**/*"
+  templates:
+  - info-page
+- type: heading
+  label: 花雨满天
+- type: directory
+  path: body
+  label: 身
+  create: all
+  match: "**/*"
+  templates:
+  - blog-post
+- type: directory
+  path: mind
+  label: 心
+  create: all
+  match: "**/*"
+  templates:
+  - blog-post
+- type: directory
+  path: spirit
+  label: 灵
+  create: all
+  match: "**/*"
+  templates:
+  - blog-post
 - type: heading
   label: Content
 - type: directory
