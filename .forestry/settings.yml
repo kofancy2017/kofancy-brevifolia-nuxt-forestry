@@ -55,7 +55,7 @@ sections:
   path: content/data/config.json
   label: Site Info
 upload_dir: static
-public_path: ''
+public_path: https://vd2.bdstatic.com/mda-mfgcwtf01gavzhcc/fhd/cae_h264_nowatermark/1623921070451806900/mda-mfgcwtf01gavzhcc.mp4?v_from_s=nj_haokan_4469&auth_key=1623993280-0-0-e3398bcf62aceece23cfda8721f40270&bcevod_channel=searchbox_feed&pd=1&pt=3&abtest=
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
